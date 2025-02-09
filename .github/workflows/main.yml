@@ -1,12 +1,10 @@
-name: Build  Deploy
-on:
-  push:
-    branches: main
+name: greeting
+on: push
+
 jobs:
   greet:
     runs-on: ubuntu-latest
 
     steps:
-     -  name: "greet User"
-       run: echo "Hello User"
-
+      - name: "greet User"
+        run: echo "Hello User"
