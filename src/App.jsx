@@ -4,7 +4,7 @@ import React from 'react'
 const App = () => {
   return (
     <div>
-<h1>Mashhood Rehman</h1>      
+<h1 className='word'>Mashhood Rehman</h1>      
     </div>
   )
 }
