@@ -1,7 +1,7 @@
 .word {
-    color: red;
+    color: yellow;
     font-weight: bold;
-    font-size: 500px;
+    font-size: 100px;
     text-align: center;
     direction: flex;
     justify-content: center;
