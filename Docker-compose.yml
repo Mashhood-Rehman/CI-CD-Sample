@@ -1,0 +1,14 @@
+name: mern-app
+
+services:
+  api:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    env-file: ./backend/env
+    volumes:
+      - ./backend/:app
+      - /app/node_modules
+    ports:
+      - 4004:4004
